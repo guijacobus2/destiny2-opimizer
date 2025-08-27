@@ -1,5 +1,7 @@
 # Destiny 2 – Armor Optimizer (Stats 200-cap + Set Bonuses)
 
+https://github.com/user-attachments/assets/1a640a2a-e09d-4724-a929-8682a2386527
+
 Full-stack TypeScript app (React + Vite on the client, Node + Express on the server) that:
 - Authenticates with Bungie OAuth
 - Reads **all items** from **all 3 characters + Vault**
@@ -13,6 +15,8 @@ Full-stack TypeScript app (React + Vite on the client, Node + Express on the ser
 > - Optimizer logic here is a solid baseline (fast meet-in-the-middle with constraints); adjust scoring to your needs.
 > - Set bonus/archetype specifics are configurable in `server/src/utils/stats.ts`.
 > - This project minimizes Manifest work by calling `GetDestinyEntityDefinition` per unique item hash and caching the results in-memory.
+
+
 >   For heavy production usage, switch to a local Manifest (SQLite/JSON).
 
 ---
